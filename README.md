@@ -8,6 +8,6 @@ The index.html file is created based on [html5boilerplate.com](http://html5boile
 ## Quick start
 
 1. Clone the source code to your local web server www folder.
-   Go to [http://localhost/monkeytestjs/](http://localhost/monkeytestjs/) to view the form.
+2. Go to [http://localhost/monkeytestjs/](http://localhost/monkeytestjs/) to view the form.
 2. Go to [http://localhost/monkeytestjs/tests/](http://localhost/monkeytestjs/tests/) to see the unit test result.
 
