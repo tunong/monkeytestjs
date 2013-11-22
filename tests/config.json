@@ -1,0 +1,30 @@
+{
+    "facebookId": "100005031757396",
+
+    "local": {
+        "env": ["http://localhost/monkey/index.html"]
+    },
+    "stage": {
+        "env": ["STAGE URL OR PART OF"],
+        "facebookId": "222222222222222"
+    },
+    "beta": {
+        "env": ["BETA URL OR PART OF"],
+        "facebookId": "33333333333333333"
+    },
+    "production": {
+        "env": ["PRODUCTION URL OR PART OF"],
+        "facebookId": "4444444444444444444"
+    },
+
+    "globalTests": [
+        "global/is_html_w3c_valid.js",
+        "global/test_validation.js"
+    ],
+    "pages": [
+        {
+            "url": "../"
+        }
+    ],
+    "proxyUrl": "core/proxy.php?url="
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>MonkeyTestJS implementation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <p id="error-message"></p>
+		<form method="GET" id="main-form">
+			<div>
+				<label>
+					First name *
+				</label>
+				<input type="text" name="first_name" id="first_name" required />
+			</div>
+			<div>
+				<label>
+					Surname *
+				</label>
+				<input type="text" name="surname" id="surname" required/>
+			</div>
+			<div>
+				<label>
+					Email address *
+				</label>
+				<input type="text" name="email" id="email" required />
+			</div>
+			<div>
+				<label>
+					Daytime contact number *
+				</label>
+				<input type="text" name="contact_number" id="contact_number" required />
+			</div>
+			<div>
+				<label>
+					Address *
+				</label>
+				<input type="text" name="address" id="address" required />
+			</div>
+			<div>
+				<label>
+					Suburb *
+				</label>
+				<input type="text" name="suburb" id="suburb" required />
+			</div>
+			<div>
+				<label>
+					State *
+				</label>
+				<select name="state" id="state">
+					<option>ACT</option>
+					<option>NSW</option>
+					<option>NT</option>
+					<option>QLD</option>
+					<option>SA</option>
+					<option>TAS</option>
+					<option>VIC</option>
+					<option>WA</option>
+				</select>
+			</div>
+			<div>
+				<label>
+					Postcode *
+				</label>
+				<input type="text" name="postcode" id="postcode" required />
+			</div>
+			<div>
+				<label>
+					Enquiry type *
+				</label>
+				<select name="enquiry_type" id="enquiry_type">
+					<option>General enquiry</option>
+					<option>Product feedback or enquiry</option>
+					<option>Product complaint</option>
+				</select>
+			</div>
+			<div>
+				<label>
+					Product name
+				</label>
+				<input type="text" name="product_name" id="product_name"/>
+			</div>
+			<div>
+				<label>
+					Product size
+				</label>
+				<input type="text" name="product_size" id="product_size"/>
+			</div>
+			<div>
+				<label>
+					Use-by date
+				</label>
+				<input type="text" name="use_by_date" id="use_by_date"/>
+			</div>
+			<div>
+				<label>
+					Batch code
+				</label>
+				<input type="text" name="batch_code" id="batch_code"/>
+			</div>
+			<div>
+				<label>
+					Enquiry
+				</label>
+				<textarea name="enquiry" id="enquiry"></textarea>
+			</div>
+			<div>
+				<input type="submit" name="submit" value="Submit" onclick="return submitForm();"/>
+			</div>
+		</form>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
